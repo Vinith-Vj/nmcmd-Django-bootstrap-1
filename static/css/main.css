@@ -148,7 +148,7 @@ h6 {
   --contrast-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 10px 0;
+  /* padding: 10px 0; */
   transition: all 0.5s;
   z-index: 997;
 }
@@ -984,6 +984,7 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  border-radius: 10px;
 }
 
 .features .features-item h4 {
@@ -1779,4 +1780,9 @@ section,
     transform: scale(1);
     /* box-shadow: 0 0 0 14px rgba(37, 211, 102, 0); */
   }
+}
+
+
+.about_us_img img {
+  border-radius: 10px;
 }
